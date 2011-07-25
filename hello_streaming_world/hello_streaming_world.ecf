@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-8-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-8-0 http://www.eiffel.com/developers/xml/configuration-1-8-0.xsd" name="hello_streaming_world" uuid="43E6C3EF-DE70-4ED5-819D-1B09C8F8164E">
+	<target name="hello_streaming_world">
+		<root class="HELLO_STREAMING_WORLD" feature="make"/>
+		<setting name="console_application" value="true"/>
+		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
+		<cluster name="hello_streaming_world" location=".\"/>
+        <cluster name="ewsgi" location="..\lib"/>
+        <cluster name="ewsgi_cgi" location="..\lib\connectors\cgi"/>
+	</target>
+</system>

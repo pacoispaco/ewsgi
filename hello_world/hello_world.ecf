@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-8-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-8-0 http://www.eiffel.com/developers/xml/configuration-1-8-0.xsd" name="hello_world" uuid="889BFE3C-8483-401C-B8C2-2535C3C95EB5">
+	<target name="hello_world">
+		<root class="HELLO_WORLD" feature="make"/>
+		<setting name="console_application" value="true"/>
+		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
+		<cluster name="hello_world" location=".\"/>
+        <cluster name="ewsgi" location="..\lib"/>
+        <cluster name="ewsgi_cgi" location="..\lib\connectors\cgi"/>
+	</target>
+</system>
