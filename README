@@ -8,4 +8,24 @@ This project is a proof-of-concept project for EWSGI. For more details see:
 Required tools
 --------------
 
- 1. EiffelStudio 6.8
+ 1. EiffelStudio 6.8.
+ 2. Apache (to deploy the example applications).
+ 
+To compile
+----------
+
+Compile the two example applications hello_world and hello_streaming_world with
+EiffelStudio.
+
+To deploy
+---------
+
+Run the script:
+
+$ ./deploy_apache_apps.sh
+
+This will set upp the example applications as CGI programs in /var/www/ewsgi
+
+Make sure to add the following line to your /etc/hosts file:
+
+127.0.0.1       ewsgi.localsite.com
