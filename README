@@ -1,0 +1,11 @@
+EWSGI - Eiffel Web Server Gateway Interface
+===========================================
+
+This project is a proof-of-concept project for EWSGI. For more details see:
+
+  http://eiffel.seibostudios.se/wiki/EWSGI
+  
+Required tools
+--------------
+
+ 1. EiffelStudio 6.8
